@@ -8,6 +8,8 @@ import ErrorPage from "../components/pages/ErrorPage";
 import Dashboard from "../components/pages/Dashboard";
 import DashboardLayout from "../layouts/DashboardLayout";
 import PrivateRoute from "./private/PrivateRoute";
+import AllProducts from "../components/pages/AllProducts";
+import AddProduct from "../components/pages/AddProduct";
 
 export const router = createBrowserRouter([
   {
@@ -44,8 +46,16 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     children: [
     {
-      path:"",
+      path:"/dashboard",
       element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
+    },
+    {
+      path:"/dashboard/allProducts",
+      element:<PrivateRoute><AllProducts/></PrivateRoute>
+    },
+    {
+      path:"/dashboard/addProduct",
+      element:<PrivateRoute><AddProduct/></PrivateRoute>
     }
         
     ]

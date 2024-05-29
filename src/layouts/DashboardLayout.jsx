@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import Navbar from "../components/component/Navbar";
 import Footer from "../components/component/Footer";
+import { Toaster } from "react-hot-toast";
 
 const DashboardLayout = () => {
     return (
@@ -22,6 +23,7 @@ const DashboardLayout = () => {
                 </div>
             </div>
             <Footer></Footer>
+            <Toaster></Toaster>
         </div>
     );
 };

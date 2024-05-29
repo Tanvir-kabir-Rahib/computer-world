@@ -1,4 +1,6 @@
+import toast from "react-hot-toast";
 import { useLoaderData, useNavigate } from "react-router-dom";
+const notify = () => toast.success("Product Edited ")
 
 const EditProduct = () => {
     const navigate = useNavigate()
@@ -29,6 +31,7 @@ const EditProduct = () => {
             .then((data) => {
                 console.log(data);
                 navigate(`/dashboard/allproducts/products/${product.id}`)
+                notify()
             });
     };
 

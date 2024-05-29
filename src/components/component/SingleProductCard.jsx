@@ -1,4 +1,6 @@
+import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
+const notify =()=> toast.success("Deleted")
 
 const SingleProductCard = (laptop, onDelete) => {
     const { id, name, price, description, image_url } = laptop.laptop;
@@ -9,7 +11,8 @@ const SingleProductCard = (laptop, onDelete) => {
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);
-                onDelete(id)
+                notify()
+                onDelete(id);
             });
     };
     return (

@@ -1,7 +1,18 @@
 import { Link } from "react-router-dom";
 
-const SingleProductCard = (laptops) => {
-    const { id, name, price, description, image_url } = laptops.laptops;
+const SingleProductCard = (data) => {
+    const { id, name, price, description, image_url } = data.data;
+    const onDelete = data.onDeleteI();
+    const handleDelete = async () => {
+        await fetch(`http://localhost:3000/shoes/${id}`, {
+            method: "DELETE",
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(data);
+                onDelete(id);
+            });
+    };
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
@@ -11,9 +22,15 @@ const SingleProductCard = (laptops) => {
                 <h2 className="card-title">{name}</h2>
                 <p>{description}</p>
                 <h3 className="text-xl font-semibold text-rose-600">$ {price}</h3>
-                <div className="card-actions justify-end">
+                <div className="card-actions justify-between">
+                    <button className="btn bg-yellow-500 text-white">
+                        <Link to={`/products/${id}`}>Edit</Link>
+                    </button>
                     <button className="btn bg-blue-700 text-white">
                         <Link to={`/products/${id}`}>See details</Link>
+                    </button>
+                    <button onClick={handleDelete} className="btn bg-red-600 text-white">
+                        Delete
                     </button>
                 </div>
             </div>

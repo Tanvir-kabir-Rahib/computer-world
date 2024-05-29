@@ -11,7 +11,7 @@ export const Register = () => {
 
     const from = location?.state?.from?.pathname || "/";
 
-    const handleSUbmit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         console.log(e)
 
@@ -72,7 +72,7 @@ return (
                         )}
                     </div>
                     <div className="form-control mt-6">
-                        <button onClick={handleSUbmit} className="btn btn-primary">Register</button>
+                        <button onClick={handleSubmit} className="btn btn-primary">Register</button>
                     </div>
                 </form>
                 <div className="mt-6">

@@ -10,7 +10,7 @@ const Login = () => {
   
     const from = location?.state?.from?.pathname || "/";
   
-    const handleSUbmit = async (e) => {
+    const handleSubmit = async (e) => {
       e.preventDefault();
   
       const form = e.target.form;
@@ -46,7 +46,7 @@ const Login = () => {
                             <input type="password" name="password" placeholder="password" className="input input-bordered" required />
                         </div>
                         <div className="form-control mt-6">
-                            <button onClick={handleSUbmit} className="btn btn-primary">Login</button>
+                            <button onClick={handleSubmit} className="btn btn-primary">Login</button>
                         </div>
                     </form>
                         <div className="mt-6">

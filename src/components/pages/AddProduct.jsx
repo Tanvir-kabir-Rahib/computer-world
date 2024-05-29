@@ -4,13 +4,13 @@ const AddProduct = () => {
 
         const form = e.target;
         const id = form.productID.value;
-        const title = form.productName.value;
+        const name= form.productName.value;
         const brand = form.brand.value;
         const price = form.price.value;
         const description = form.description.value;
         const image_url = form.image_url.value;
 
-        const data = { id, title, brand, price, description, image_url };
+        const data = { id, name, brand, price, description, image_url };
 
         await fetch("http://localhost:3000/laptops", {
             method: "POST",
@@ -27,7 +27,7 @@ const AddProduct = () => {
     };
 
     return (
-        <div className='w-11/12 lg:w-8/12 my-12' >
+        <div className='w-11/12 lg:w-8/12 mb-12' >
             <div className='shadow-xl p-10 rounded-xl flex justify-center items-center'>
                 <form onSubmit={handleSubmit} className="w-full">
                     <h1 className='text-2xl text-center mb-5'>Add a New Product</h1>

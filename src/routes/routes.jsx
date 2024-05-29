@@ -9,6 +9,7 @@ import DashboardLayout from "../layouts/DashboardLayout";
 import PrivateRoute from "./private/PrivateRoute";
 import AllProducts from "../components/pages/AllProducts";
 import AddProduct from "../components/pages/AddProduct";
+import ProductDetails from "../components/pages/ProductDetails";
 
 export const router = createBrowserRouter([
   {
@@ -50,7 +51,12 @@ export const router = createBrowserRouter([
     {
       path:"/dashboard/addProduct",
       element:<PrivateRoute><AddProduct/></PrivateRoute>
-    }
+    },
+    {
+      path:"/dashboard/allProducts/products/:id",
+      element:<PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
+      loader: ({params})=> fetch(`http://localhost:3000/laptops/${params.id}`)
+    },
         
     ]
   }

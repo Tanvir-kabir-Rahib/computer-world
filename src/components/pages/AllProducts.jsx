@@ -14,7 +14,7 @@ const AllProducts = () => {
         setProducts(products.filter((product) => product.id !== id));
     };
     return (
-        <div className="flex flex-wrap gap-10 px-6 justify-center items-center my-20">
+        <div className="flex flex-wrap gap-10 justify-center items-center my-10 w-11/12">
             {
                 products.map((product) => (
                     <SingleProductCard key={product.id} laptop={product} onDelete={handleDeleteProduct} />

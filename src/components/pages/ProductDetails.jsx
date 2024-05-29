@@ -16,8 +16,8 @@ const ProductDetails = () => {
                         <p className="text-lg font-light">{data.description}</p>
                     </div>
                     <div className="flex justify-end">
-                        <button className="btn bg-yellow-500 text-white px-10 mt-14 flex">
-                            <Link to={`/dashboard/allProducts/edit/${data.id}`}>Edit</Link>
+                        <button>
+                            <Link className="btn bg-yellow-500 text-white px-10 mt-14" to={`/dashboard/allProducts/edit/${data.id}`}>Edit</Link>
                         </button>
                     </div>
                 </div>

@@ -13,8 +13,8 @@ const HomeViewProducts = (laptops) => {
                 <p>{description}</p>
                 <h3 className="text-xl font-semibold text-rose-600">$ {price}</h3>
                 <div className="card-actions justify-end">
-                    <button className="btn bg-blue-700 text-white">
-                        <Link to={`/dashboard/allproducts/products/${id}`}>See details</Link>
+                    <button>
+                        <Link className="btn bg-blue-700 text-white" to={`/dashboard/allproducts/products/${id}`}>See details</Link>
                     </button>
                 </div>
             </div>

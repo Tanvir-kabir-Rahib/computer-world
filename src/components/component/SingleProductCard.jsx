@@ -22,11 +22,11 @@ const SingleProductCard = (laptop, onDelete) => {
                 <p>{description}</p>
                 <h3 className="text-xl font-semibold text-rose-600">$ {price}</h3>
                 <div className="card-actions justify-between">
-                    <button className="btn bg-yellow-500 text-white">
-                        <Link to={`/dashboard/allProducts/edit/${id}`}>Edit</Link>
+                    <button>
+                        <Link  className="btn bg-yellow-500 text-white" to={`/dashboard/allProducts/edit/${id}`}>Edit</Link>
                     </button>
-                    <button className="btn bg-blue-700 text-white">
-                        <Link to={`/dashboard/allProducts/products/${id}`}>See details</Link>
+                    <button>
+                        <Link className="btn bg-blue-700 text-white" to={`/dashboard/allProducts/products/${id}`}>See details</Link>
                     </button>
                     <button onClick={handleDelete} className="btn bg-red-600 text-white">
                         Delete

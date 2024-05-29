@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
 
-const SingleProductCard = (data) => {
-    const { id, name, price, description, image_url } = data.data;
-    const onDelete = data.onDeleteI();
+const SingleProductCard = (laptop, onDelete) => {
+    const { id, name, price, description, image_url } = laptop.laptop;
     const handleDelete = async () => {
-        await fetch(`http://localhost:3000/shoes/${id}`, {
+        await fetch(`http://localhost:3000/laptops/${id}`, {
             method: "DELETE",
         })
             .then((res) => res.json())
             .then((data) => {
                 console.log(data);
-                onDelete(id);
+                onDelete(id)
             });
     };
     return (

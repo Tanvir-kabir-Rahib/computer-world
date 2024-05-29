@@ -46,7 +46,6 @@ export const router = createBrowserRouter([
     {
       path:"/dashboard/allProducts",
       element:<PrivateRoute><AllProducts/></PrivateRoute>,
-      loader: () => fetch("http://localhost:3000/laptops")
     },
     {
       path:"/dashboard/addProduct",

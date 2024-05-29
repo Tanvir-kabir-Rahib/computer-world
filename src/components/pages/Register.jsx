@@ -24,7 +24,6 @@ export const Register = () => {
             setPassMatch(false);
         }
 
-        console.log(email, password, confirm_password);
 
         if (password === confirm_password) {
             createUser(email, password);
@@ -46,7 +45,7 @@ return (
                         <label className="label">
                             <span className="label-text">Name</span>
                         </label>
-                        <input type="text" name="user_name" placeholder="name" className="input input-bordered" required />
+                        <input type="text" name="displayName" placeholder="name" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                         <label className="label">

@@ -3,7 +3,6 @@ import MainLayouts from "../layouts/MainLayouts";
 import Home from "../components/pages/Home";
 import Login from "../components/pages/Login";
 import { Register } from "../components/pages/Register";
-import About from "../components/pages/About";
 import ErrorPage from "../components/pages/ErrorPage";
 import Dashboard from "../components/pages/Dashboard";
 import DashboardLayout from "../layouts/DashboardLayout";
@@ -19,7 +18,8 @@ export const router = createBrowserRouter([
     children:[
         {
             path: '/',
-            element: <Home></Home>
+            element: <Home></Home>,
+            loader: () => fetch("http://localhost:3000/laptops")
 
         },
         {
@@ -32,12 +32,6 @@ export const router = createBrowserRouter([
             element: <Register/>
 
         },
-        {
-            path: '/about',
-            element: <About></About>
-
-        },
-
     ]
   },
   {
@@ -51,7 +45,8 @@ export const router = createBrowserRouter([
     },
     {
       path:"/dashboard/allProducts",
-      element:<PrivateRoute><AllProducts/></PrivateRoute>
+      element:<PrivateRoute><AllProducts/></PrivateRoute>,
+      loader: () => fetch("http://localhost:3000/laptops")
     },
     {
       path:"/dashboard/addProduct",

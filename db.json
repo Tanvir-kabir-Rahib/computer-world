@@ -1,83 +1,84 @@
 {
-    "laptops":[
-    {
-        "id": "1",
-        "image_url": "https://example.com/images/dell_xps_13.jpg",
-        "name": "Dell XPS 13",
-        "price": 999.99,
-        "brand": "Dell",
-        "description": "A high-performance laptop with a 13.4-inch FHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
-    },
-    {
-        "id": "2",
-        "image_url": "https://example.com/images/macbook_air_m1.jpg",
-        "name": "Apple MacBook Air M1",
-        "price": 999.00,
-        "brand": "Apple",
-        "description": "A lightweight and powerful laptop with a 13.3-inch Retina display, Apple M1 chip, 8GB RAM, and 256GB SSD."
-    },
-    {
-        "id": "3",
-        "image_url": "https://example.com/images/hp_spectre_x360.jpg",
-        "name": "HP Spectre x360",
-        "price": 1249.99,
-        "brand": "HP",
-        "description": "A versatile 2-in-1 laptop with a 13.3-inch 4K UHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
-    },
-    {
-        "id": "4",
-        "image_url": "https://example.com/images/lenovo_thinkpad_x1_carbon.jpg",
-        "name": "Lenovo ThinkPad X1 Carbon",
-        "price": 1399.99,
-        "brand": "Lenovo",
-        "description": "A durable and lightweight business laptop with a 14-inch FHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
-    },
-    {
-        "id": "5",
-        "image_url": "https://example.com/images/asus_zenbook_13.jpg",
-        "name": "Asus ZenBook 13",
-        "price": 899.99,
-        "brand": "Asus",
-        "description": "A sleek and stylish laptop with a 13.3-inch OLED display, Intel Core i5 processor, 8GB RAM, and 512GB SSD."
-    },
-    {
-        "id": "6",
-        "image_url": "https://example.com/images/acer_swift_3.jpg",
-        "name": "Acer Swift 3",
-        "price": 679.99,
-        "brand": "Acer",
-        "description": "A budget-friendly laptop with a 14-inch FHD display, AMD Ryzen 7 processor, 8GB RAM, and 512GB SSD."
-    },
-    {
-        "id": "7",
-        "image_url": "https://example.com/images/microsoft_surface_laptop_4.jpg",
-        "name": "Microsoft Surface Laptop 4",
-        "price": 1299.99,
-        "brand": "Microsoft",
-        "description": "A premium laptop with a 13.5-inch PixelSense display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
-    },
-    {
-        "id": "8",
-        "image_url": "https://example.com/images/razer_blade_15.jpg",
-        "name": "Razer Blade 15",
-        "price": 1999.99,
-        "brand": "Razer",
-        "description": "A powerful gaming laptop with a 15.6-inch FHD display, Intel Core i7 processor, 16GB RAM, and 1TB SSD."
-    },
-    {
-        "id": "9",
-        "image_url": "https://example.com/images/lg_gram_17.jpg",
-        "name": "LG Gram 17",
-        "price": 1699.99,
-        "brand": "LG",
-        "description": "An ultra-lightweight laptop with a 17-inch WQXGA display, Intel Core i7 processor, 16GB RAM, and 1TB SSD."
-    },
-    {
-        "id": "10",
-        "image_url": "https://example.com/images/hp_envy_13.jpg",
-        "name": "HP Envy 13",
-        "price": 1099.99,
-        "brand": "HP",
-        "description": "A compact and powerful laptop with a 13.3-inch FHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
-    }
-]}
+    "laptops": [
+        {
+            "id": "1",
+            "image_url": "https://www.custommacbd.com/cdn/shop/products/93002_19e7b507-89a4-4aef-ae25-b01a1f2f20a9.jpg?v=1613634807",
+            "name": "Dell XPS 13",
+            "price": 999.99,
+            "brand": "Dell",
+            "description": "A high-performance laptop with a 13.4-inch FHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
+        },
+        {
+            "id": "2",
+            "image_url": "https://inventstore.in/wp-content/uploads/2023/05/macbook-air-m1-space-grey.png",
+            "name": "Apple MacBook Air M1",
+            "price": 999.00,
+            "brand": "Apple",
+            "description": "A lightweight and powerful laptop with a 13.3-inch Retina display, Apple M1 chip, 8GB RAM, and 256GB SSD."
+        },
+        {
+            "id": "3",
+            "image_url": "https://cdn.mos.cms.futurecdn.net/fc8e802333e4342fcc4a37969158a8d5.jpg",
+            "name": "HP Spectre x360",
+            "price": 1249.99,
+            "brand": "HP",
+            "description": "A versatile 2-in-1 laptop with a 13.3-inch 4K UHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
+        },
+        {
+            "id": "4",
+            "image_url": "https://example.com/images/lenovo_thinkpad_x1_carbon.jpg",
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "price": 1399.99,
+            "brand": "Lenovo",
+            "description": "A durable and lightweight business laptop with a 14-inch FHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
+        },
+        {
+            "id": "5",
+            "image_url": "https://example.com/images/asus_zenbook_13.jpg",
+            "name": "Asus ZenBook 13",
+            "price": 899.99,
+            "brand": "Asus",
+            "description": "A sleek and stylish laptop with a 13.3-inch OLED display, Intel Core i5 processor, 8GB RAM, and 512GB SSD."
+        },
+        {
+            "id": "6",
+            "image_url": "https://example.com/images/acer_swift_3.jpg",
+            "name": "Acer Swift 3",
+            "price": 679.99,
+            "brand": "Acer",
+            "description": "A budget-friendly laptop with a 14-inch FHD display, AMD Ryzen 7 processor, 8GB RAM, and 512GB SSD."
+        },
+        {
+            "id": "7",
+            "image_url": "https://example.com/images/microsoft_surface_laptop_4.jpg",
+            "name": "Microsoft Surface Laptop 4",
+            "price": 1299.99,
+            "brand": "Microsoft",
+            "description": "A premium laptop with a 13.5-inch PixelSense display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
+        },
+        {
+            "id": "8",
+            "image_url": "https://example.com/images/razer_blade_15.jpg",
+            "name": "Razer Blade 15",
+            "price": 1999.99,
+            "brand": "Razer",
+            "description": "A powerful gaming laptop with a 15.6-inch FHD display, Intel Core i7 processor, 16GB RAM, and 1TB SSD."
+        },
+        {
+            "id": "9",
+            "image_url": "https://example.com/images/lg_gram_17.jpg",
+            "name": "LG Gram 17",
+            "price": 1699.99,
+            "brand": "LG",
+            "description": "An ultra-lightweight laptop with a 17-inch WQXGA display, Intel Core i7 processor, 16GB RAM, and 1TB SSD."
+        },
+        {
+            "id": "10",
+            "image_url": "https://example.com/images/hp_envy_13.jpg",
+            "name": "HP Envy 13",
+            "price": 1099.99,
+            "brand": "HP",
+            "description": "A compact and powerful laptop with a 13.3-inch FHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
+        }
+    ]
+}

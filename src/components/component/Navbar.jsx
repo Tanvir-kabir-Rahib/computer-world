@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
-import userPicture from '../../assets/defaultUserPic.png'
+import userPicture from '../../assets/defaultUserPic.png';
+import { FaArrowRight } from "react-icons/fa";
 
 const Navbar = () => {
     const { logout, user } = useAuth();
@@ -115,7 +116,7 @@ const Navbar = () => {
                         <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
                             <li>
                                 <a className="justify-between" onClick={handleLogout}>
-                                    Logout
+                                    Logout <FaArrowRight />
                                 </a>
                             </li>
                         </ul>

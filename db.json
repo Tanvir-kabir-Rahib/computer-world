@@ -12,7 +12,7 @@
       "id": "2",
       "image_url": "https://inventstore.in/wp-content/uploads/2023/05/macbook-air-m1-space-grey.png",
       "name": "Apple MacBook Air M1",
-      "price": 999,
+      "price": "999",
       "brand": "Apple",
       "description": "A lightweight and powerful laptop with a 13.3-inch Retina display, Apple M1 chip, 8GB RAM, and 256GB SSD."
     },
@@ -74,6 +74,14 @@
     },
     {
       "id": "10",
+      "image_url": "https://www.custommacbd.com/cdn/shop/products/93002_19e7b507-89a4-4aef-ae25-b01a1f2f20a9.jpg?v=1613634807",
+      "name": "HP Envy 13",
+      "price": 1099.99,
+      "brand": "HP",
+      "description": "A compact and powerful laptop with a 13.3-inch FHD display, Intel Core i7 processor, 16GB RAM, and 512GB SSD."
+    },
+    {
+      "id": "11",
       "image_url": "https://www.custommacbd.com/cdn/shop/products/93002_19e7b507-89a4-4aef-ae25-b01a1f2f20a9.jpg?v=1613634807",
       "name": "HP Envy 13",
       "price": 1099.99,
